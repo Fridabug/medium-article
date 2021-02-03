@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;1,100;1,300;1,400;1,700&display=swap');
+
+body {
+  background-color: #EFF2EF;
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: normal;
+  text-align: center;
+
+}
+
+.banner {
+  background-image: url("https://source.unsplash.com/random/1000x500");
+  background-size: cover;
+  color: white;
+  padding: 120px 0;
+  text-align: center;
+}
+
+.container {
+  width: 700px;
+  margin: 50px auto;
+
+}
+
+.btn {
+  padding: 5px;
+}
+
+h1, h2, h3 {
+  font-weight: 700;
+}
+
+h2, h3 {
+  color: #7284A8;
+}
+
+p {
+  text-align: justify;
+}
+
+a {
+  border-radius: 5px;
+  text-decoration: none;
+  color: #7284A8;
+  background-image: linear-gradient(to bottom, rgba(245, 200, 216, 1), rgba(239, 242, 239, 1))
+}
+
+a:hover {
+  color: #7284A8;
+  background-image: linear-gradient(to bottom, rgba(239, 242, 239, 1), rgba(245, 200, 216, 1))
+}
+
+@media(max-width: 992px) {
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
